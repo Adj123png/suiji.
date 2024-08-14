@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今晚吃什么？</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>今晚吃什么？</h1>
+    <div class="wheel" id="dinnerWheel">
+        <ul>
+            <li>盖浇饭</li>
+            <li>冒菜</li>
+            <li>面粉饵块</li>
+            <li>火锅</li>
+            <li>汉堡</li>
+        </ul>
+    </div>
+    <button onclick="spinWheel('dinnerWheel')">转动</button>
+
+    <h1>早上吃什么？</h1>
+    <div class="wheel" id="breakfastWheel">
+        <ul>
+            <li>包子稀饭</li>
+            <li>手抓饼</li>
+            <li>豆浆油条</li>
+            <li>肉夹馍</li>
+        </ul>
+    </div>
+    <button onclick="spinWheel('breakfastWheel')">转动</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
